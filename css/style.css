@@ -189,7 +189,7 @@ footer {
 }
 
 .rights {
-    margin-right: 30px;
+    margin-right: 60px;
     margin-top: 20px;
 }
 
@@ -201,8 +201,13 @@ footer {
 }
 
 .brazil-logo {
-    width: 20px;
+    width: 15px;
+    height: 15px;
     margin-left: 5px;
+}
+
+.copyright {
+    font-size: small;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -283,6 +288,7 @@ footer {
         display: flex;
         flex-direction: row;
         font-size: small;
+        margin-left: -50px;
     }
 
     .rights {
@@ -296,15 +302,18 @@ footer {
         width: 40px;
         flex-direction: row;
         padding-top: 20px;
-        margin-left: auto;
+        margin-left: 55px;
+        font-size: small;
     }
 
     .copyright {
         margin-right: auto;
+        font-size: small;
     }
 
     .brazil-logo {
-        width: 20px;
+        width: 15px;
+        height: 15px;
         margin-left: 5px;
     }
 }
