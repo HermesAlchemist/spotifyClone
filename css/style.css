@@ -157,17 +157,67 @@ footer {
 
 .socials {
     display: flex;
-    margin: 10px 60px;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.radius-social {
+    background: grey;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-info {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.footer-info-item {
+    padding: 10px;
+}
+
+.rights {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.country {
+    display: flex;
+    width: 40px;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.brazil-logo {
+    width: 20px;
+    margin-left: 5px;
 }
 
 @media only screen and (min-width: 1200px) {
     #container {
-        max-width: 60%;
+        max-width: 60vw;
         margin: 0 auto;
         align-items: center;
         justify-content: space-between;
         display: flex;
     }
+
+    #logo-header {
+        margin-left: 10px;
+    }
+
     .hamburguer-menu {
         display: none; /* Oculta o menu hamburguer quando a largura da tela é maior que 1200px */
     }
@@ -198,6 +248,7 @@ footer {
     
     .footer-menu {
         margin: 10px 5%;
+        width: 100%;
     }
     
     .footer-menu h3 {
@@ -207,6 +258,53 @@ footer {
     }
     
     .footer-menu-items {
-        padding: 15px 0;
+        padding: 15px 0px;
+    }
+
+    .socials {
+        display: flex;
+        width: 60vw;
+        align-items: start;
+        justify-content: end;
+        margin-bottom: 15px;
+    }
+
+    .footer-info {
+        width: 60vw;
+        display: flex;
+        flex-direction: row;
+        padding-left: 60px;
+        margin: 0 auto; /* Adicionado para centralizar horizontalmente */
+        align-items: center; /* Adicionado para centralizar verticalmente */
+        justify-content: start;
+    }    
+
+    .footer-info-items {
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+    }
+
+    .rights {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-left: auto;
+    }
+
+    .country {
+        display: flex;
+        width: 40px;
+        flex-direction: row;
+        padding-top: 20px;
+        margin-left: auto;
+    }
+
+    .copyright {
+        margin-right: auto;
+    }
+
+    .brazil-logo {
+        width: 20px;
+        margin-left: 5px;
     }
 }
